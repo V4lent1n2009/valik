@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwort-System</title>
+    <script>
+        function pruefePasswort() {
+            var eingegebenesPasswort = document.getElementById("passwort").value;
+            var korrektesPasswort = "gast"; // Setze hier dein korrektes Passwort ein
+
+            if (eingegebenesPasswort === korrektesPasswort) {
+                // Zeige den geschützten Inhalt an
+                document.getElementById("geschuetzterInhalt").style.display = "block";
+            } else {
+                alert("Falsches Passwort! Bitte versuche es erneut.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="passwort">Passwort:</label>
+        <input type="password" id="passwort" name="passwort">
+        <input type="button" value="Einloggen" onclick="pruefePasswort()">
+    </form>
+
+    <!-- Geschützter Inhalt -->
+    <div id="geschuetzterInhalt" style="display: none;">
+        <h2>Willkommen auf der geschützten Seite!</h2>
+        <img src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.welt.de%2Fimg%2Fwirtschaft%2Fmobile131035019%2F7702507437-ci102l-w1024%2FCRESTED-BLACK-MACAQUE.jpg&f=1&nofb=1&ipt=226f008e15f8aa2dc69fca5aec536ea11f240088808540b20a39fdfbcedab691&ipo=images  width="200" height="200"> 
+
+        <!-- Weitere Inhalte hier -->
+    </div>
+</body>
+</html>
