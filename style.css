@@ -103,11 +103,7 @@ button::before {
     background-color: #008BFF;
 }
 
-.box-4:hover button::before {
-    width: 120%;
-    opacity: .8;
-    background-color: #FF6500;
-}
+
 
 .container {
     display: -webkit-box;
@@ -176,7 +172,7 @@ button::before {
 .box-2 button::after {
     content: "";
     background-color: #653EE6;
-    top: -85px
+    top: -850px
 }
 
 .box-3 button {
@@ -194,20 +190,7 @@ button::before {
     top: -85px
 }
 
-.box-4 button {
-    border: 1px solid #FF6500;
-    color: #fff;
-    font-size: 22px;
-    text-align: right;
-    padding-right: 20px;
-    line-height: 40px;
-}
 
-.box-4 button::after {
-    content: "";
-    background-color: #FF6500;
-    top: -85px
-}
 
 .cover {
     -webkit-transition: all 400ms ease-in-out;
@@ -257,12 +240,10 @@ button::before {
 }
 
 .box-3 .cover::after {
-    background-image: url('https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_400x400.jpg');
-}
-
-.box-4 .cover::after {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2020%2F11%2FGitHub-Symbol.png&f=1&nofb=1&ipt=b306cd46dc6d7bb6797da0df8d8f2ea5ad989e8ca8f96d804abc6b34f85dd1a4&ipo=images');
 }
+
+
 
 .box-1 button div::before {
     content: 'Discord';
@@ -306,19 +287,7 @@ button::before {
     color: #fff;
 }
 
-.box-4 button div::before {
-    content: 'GitHub';
-    position: relative;
-    top: -44px;
-    left: 25px;
-    color: #FF6500;
-    font-size: 19px;
-    font-weight: 300;
-}
 
-.box-4:hover button div::before {
-    color: #fff;
-}
 
 .dr {
 position: absolute;
