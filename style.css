@@ -274,7 +274,7 @@ button::before {
 }
 
 .box-3 button div::before {
-    content: 'X';
+    content: 'Github';
     position: relative;
     top: -44px;
     left: -30px;
