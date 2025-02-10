@@ -172,7 +172,7 @@ button::before {
 .box-2 button::after {
     content: "";
     background-color: #653EE6;
-    top: -850px
+    top: -85px
 }
 
 .box-3 button {
@@ -240,7 +240,7 @@ button::before {
 }
 
 .box-3 .cover::after {
-    background-image: url('https://pngimg.com/uploads/github/small/github_PNG40.png');
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2020%2F11%2FGitHub-Symbol.png&f=1&nofb=1&ipt=b306cd46dc6d7bb6797da0df8d8f2ea5ad989e8ca8f96d804abc6b34f85dd1a4&ipo=images');
 }
 
 
@@ -277,7 +277,7 @@ button::before {
     content: 'Github';
     position: relative;
     top: -44px;
-    left: -30px;
+    left: 10px;
     color: #008BFF;
     font-size: 19px;
     font-weight: 300;
